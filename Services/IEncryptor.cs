@@ -4,6 +4,6 @@ namespace Encryptor.Services
 {
     public interface IEncryptor
     {
-        string Encrypt(EncryptionType encryptionType, string data);
+        string Encrypt(string data);
     }
 }
